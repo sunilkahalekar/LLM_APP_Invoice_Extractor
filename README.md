@@ -19,3 +19,6 @@ Document Processing: Extend the application to handle multiple document types us
 
 ### Conclusion:
 Gemini Pro, with its remarkable capabilities, opens the door to endless possibilities. This end-to-end project not only showcases the potential of Gemini Pro but also serves as a foundation for tackling diverse document processing tasks. Feel free to customize, experiment, and create an application tailored to your specific needs. Happy coding!
+
+### References:
+https://medium.com/@kahalekar.sunil/unleashing-the-power-of-gemini-pro-multi-language-invoice-extractor-9bef429257c7
