@@ -51,8 +51,8 @@ def input_image_details(uploaded_file):
 st.set_page_config(page_title="Multilanguage Invoice Extractor Demo")
 
 st.header("Multilanguage Application")
-input=st.txt_input("Input Prompt:",key="input")
-uploaded_file=st.file_uploder("Choose an image of the invoice: ", type=["jpg","jpeg","png"])
+input=st.text_input("Input Prompt:",key="input")
+uploaded_file=st.file_uploader("Choose an image of the invoice: ", type=["jpg","jpeg","png"])
 image=""
 if uploaded_file is not None:
     image=Image.open(uploaded_file)
