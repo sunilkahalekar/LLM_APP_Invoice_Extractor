@@ -1,0 +1,13 @@
+prefix=C:/Users/ms101/Desktop/llm_app/LLM_APP_Invoice_Extractor/venv/Library
+exec_prefix=C:/Users/ms101/Desktop/llm_app/LLM_APP_Invoice_Extractor/venv/Library
+libdir=C:/Users/ms101/Desktop/llm_app/LLM_APP_Invoice_Extractor/venv/Library/lib
+sharedlibdir=C:/Users/ms101/Desktop/llm_app/LLM_APP_Invoice_Extractor/venv/Library/lib
+includedir=C:/Users/ms101/Desktop/llm_app/LLM_APP_Invoice_Extractor/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
